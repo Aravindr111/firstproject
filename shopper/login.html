@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(photo.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-sizing: border-box;
+        }
+        h1{
+            font-family:Arial, Helvetica, sans-serif ;
+            text-decoration: none;
+            text-align: center;
+            background-color: white;
+        }
+      
+        
+       
+        .log{
+             justify-items: center;
+           
+            font-size: .75cm;
+            font-family: 'Times New Roman', Times, serif;
+            
+            margin: 3cm 10cm 5cm .5cm;
+            
+            border: 2px  black;
+            border-style:ridge;
+            border-radius: .5cm;
+            width: 400px;
+            
+            padding: 50px 10px 100px  10px;
+            background-color: white;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+        }
+    a{
+        font-size: .5cm;
+        
+    }
+    
+ 
+   #pass{
+       color: skyblue;
+       font-size: 20px;
+   }
+  
+    </style>
+</head>
+<body>
+    <form id="loginform">
+        <div id="head">
+            <h1 >Welcome</h1>
+        </div>
+        <hr>
+        
+       
+       
+    
+    <div class="log">
+        <h3>Log In</h3> 
+        <hr>
+        
+        
+        <label for=" value">Enter your email </label>
+         <input  type= "email"  name="email" id="value" placeholder="email"  size="20cm" required >
+       <br>
+       <br>
+        
+       <label for=" value2">Enter Password </label>
+         <input type="password" name="pass" id="value2" placeholder="password" size="20cm" required > 
+        
+        <br>
+        <button  id="login" > login </button> 
+        <br>
+        
+        <a style="color:deepskyblue;" href="error" target="_blank">Forgot password</a>
+        <a style="color: deepskyblue;" href="signup.html" >New! Try to Signup</a> 
+        
+    </div>
+   
+    
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
